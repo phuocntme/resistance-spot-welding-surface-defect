@@ -1,0 +1,9 @@
+# Copy this file to data.yaml and adjust paths, class count, and class names.
+# Keep dataset files and the personalized data.yaml out of version control.
+path: ./dataset
+train: images/train
+val: images/val
+
+names:
+  0: defect_class_0
+  1: defect_class_1

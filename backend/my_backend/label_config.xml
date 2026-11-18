@@ -1,0 +1,19 @@
+<View>
+  <Image name="image" value="$image" zoom="true"/>
+
+  <!-- SMART Rectangle: ve khung bao quanh vat the → SAM tu dong tao polygon -->
+  <RectangleLabels name="rect_trigger" toName="image" smart="true" showInline="true">
+    <Label value="Edge" background="yellow"/>
+    <Label value="Normal" background="green"/>
+    <Label value="Splash + Copper_Adhesion" background="orange"/>
+    <Label value="Unknown" background="gray"/>
+  </RectangleLabels>
+
+  <!-- Polygon output: backend tra ve polygon o day (editable = cho phep chinh sua) -->
+  <PolygonLabels name="label" toName="image" editable="true">
+    <Label value="Edge" background="#0000FF7F"/>
+    <Label value="Normal" background="#00FF007F"/>
+    <Label value="Splash + Copper_Adhesion" background="#FFA5007F"/>
+    <Label value="Unknown" background="#8080807F"/>
+  </PolygonLabels>
+</View>

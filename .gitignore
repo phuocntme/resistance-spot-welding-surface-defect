@@ -1,0 +1,32 @@
+# Local datasets / labels
+dataset/
+data/
+data.yaml
+*.zip
+*.rar
+
+# Keep model files local unless the owner confirms redistribution rights.
+# Before adding approved weights to Git, remove the matching ignore rules.
+# Training outputs
+runs/
+results/
+
+# Environments and secrets
+.venv/
+venv/
+pythonv_venv/
+.env
+.env.*
+!.env.example
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
